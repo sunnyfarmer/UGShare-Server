@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+1结果处理方式:1属性ID:1开始项:1最大项数:1条件属性ID:1比较符号：1比较值：1限制结果数offset：1限制结果数rowCount：1运算符号;2结果处理方式:2属性ID:2开始项:2最大项数:2条件属性ID:2比较符号：2比较值：2限制结果数offset：2限制结果数rowCount:2运算符号
+结果处理方式：
+	0:value		如果只有一项，那么返回一个结果，否则报错
+	 1:count		返回项的数量
+	 2:sum		返回总数（使用于数字类型）
+	 3:average	返回平均值（使用于数字类型）
+属性ID：	类属性ID
+开始项:	表示从返回的第几项开始处理
+最大项数:表示最多将处理多少项
+条件属性ID：columnID，来自 PDataEnum 
+比较符号:
+	 0:>
+	 1:<
+	 2:=
+	 3:>=
+	 4:<=
+	 5:like
+	 6:in
+比较值：对照值
+运算符号:与下一项取出来的数据进行对照
+	 0:+
+	 1:-
+	 2:*
+	 3:/ 
+	 
+comparisionID与上面所述的 比较符号不是来自同一个对照表，comparisionID是不同数据类型之间的比较
+-->
+<BehaviorNet>
+	<BehaviorLine id="bl001" Description="bl001description">
+		<BeginNode id="bh003">
+			<ParameterValue id="" comparisionID="" comparisionObject=""></ParameterValue>
+			<PropertyValue value="1结果处理方式:1属性ID:1开始项:1最大项数:1条件属性ID:1比较符号：1比较值：1运算符号;2结果处理方式:2属性ID:2开始项:2最大项数:2条件属性ID:2比较符号：2比较值:2运算符号" comparisionID="" comparisionObject=""></PropertyValue>
+		</BeginNode>
+		<EndNode id="bh004">
+			<ParameterValue id="pp004x001" value="1.01"></ParameterValue>
+			<ParameterValue id="pp004x002" value="array(130.34,33.43)"></ParameterValue>
+		</EndNode>
+	</BehaviorLine>
+	<BehaviorLine id="bl002" Description="bl002decription">
+		<BeginNode id="">
+			<PropertyValue value="" comparisionID=""
+				comparisionObject="">
+			</PropertyValue>
+		</BeginNode>
+		<EndNode id="bh003">
+			<ParameterValue id="pp003x001" value="1"></ParameterValue>
+			<ParameterValue id="pp003x002" value="2"></ParameterValue></EndNode></BehaviorLine>
+</BehaviorNet>

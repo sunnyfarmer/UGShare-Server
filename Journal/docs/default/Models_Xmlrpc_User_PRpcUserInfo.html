@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Models_Xmlrpc_User_PRpcUserInfo</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Models_Xmlrpc_User_PRpcUserInfo</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_user---PRpcUserInfo.php.html">/user/PRpcUserInfo.php</a> (line <span class="field">2</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+												<div class="method-definition">
+					static 						<span class="method-result">struct</span>
+										<a href="#getCloseUser" title="details" class="method-name">getCloseUser</a>
+											([<span class="var-type">float</span>&nbsp;<span class="var-name">$longitude</span> = <span class="var-default">null</span>], [<span class="var-type">float</span>&nbsp;<span class="var-name">$latitude</span> = <span class="var-default">null</span>], [<span class="var-type">float</span>&nbsp;<span class="var-name">$distance</span> = <span class="var-default">null</span>], <span class="var-type"></span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$rowCount</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#getUserBigAvatar" title="details" class="method-name">getUserBigAvatar</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$requestUsrId</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">struct</span>
+										<a href="#getUserInfo" title="details" class="method-name">getUserInfo</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$requestUsrId</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">array</span>
+										<a href="#getUserPosition" title="details" class="method-name">getUserPosition</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$requestUsrId</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#getUserSmallAvatar" title="details" class="method-name">getUserSmallAvatar</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$requestUsrId</span>)
+									</div>
+								
+																																												</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodgetCloseUser" id="getCloseUser"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getCloseUser</span> (line <span class="line-number">72</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">获取周边用户列表</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> 周边用户列表，格式如    array(usrId=&gt;usrName , usrId=&gt;usrName)</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">struct</span>
+		<span class="method-name">
+			getCloseUser
+		</span>
+					([<span class="var-type">float</span>&nbsp;<span class="var-name">$longitude</span> = <span class="var-default">null</span>], [<span class="var-type">float</span>&nbsp;<span class="var-name">$latitude</span> = <span class="var-default">null</span>], [<span class="var-type">float</span>&nbsp;<span class="var-name">$distance</span> = <span class="var-default">null</span>], <span class="var-type"></span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$rowCount</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$longitude</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$latitude</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$distance</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$beginIndex</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$rowCount</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetUserBigAvatar" id="getUserBigAvatar"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getUserBigAvatar</span> (line <span class="line-number">39</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">获取用户大头像</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> 头像文件的base64字符串</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getUserBigAvatar
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$requestUsrId</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$requestUsrId</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetUserInfo" id="getUserInfo"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getUserInfo</span> (line <span class="line-number">10</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">获取用户的基础信息，如position、email、telephone、username</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array('username'=&gt;username , 'telephone'=&gt;telephone , 'email'=&gt;email , 'longitude'=&gt;longitude , 'latitude'=&gt;latitude)</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">struct</span>
+		<span class="method-name">
+			getUserInfo
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$requestUsrId</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$requestUsrId</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetUserPosition" id="getUserPosition"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getUserPosition</span> (line <span class="line-number">49</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">获取用户的位置信息（经度，纬度）</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array(longitude , latitude)</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getUserPosition
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$requestUsrId</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$requestUsrId</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetUserSmallAvatar" id="getUserSmallAvatar"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getUserSmallAvatar</span> (line <span class="line-number">60</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">获取用户头像的缩小版</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> 缩小版头像的base64字符串</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getUserSmallAvatar
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$requestUsrId</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$requestUsrId</span><span class="var-description">: 头像所属用户的id</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Wed, 20 Apr 2011 09:20:29 +0000 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.1</a>
+	</p>
+	</div></body>
+</html>

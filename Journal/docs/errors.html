@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>phpDocumentor Parser Errors and Warnings</title>
+			<link rel="stylesheet" href="media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+						<a href="#Post-parsing">Post-parsing</a><br>
+<a href="#PAddJournalPlaceInfo.php">PAddJournalPlaceInfo.php</a><br>
+<a href="#PAddPhotoToJournalInfo.php">PAddPhotoToJournalInfo.php</a><br>
+<a href="#PAddPlace.php">PAddPlace.php</a><br>
+<a href="#PAuthorization.php">PAuthorization.php</a><br>
+<a href="#PAvatar.php">PAvatar.php</a><br>
+<a href="#PBehaviorEnum.php">PBehaviorEnum.php</a><br>
+<a href="#PBehaviorLine.php">PBehaviorLine.php</a><br>
+<a href="#PBehaviorManager.php">PBehaviorManager.php</a><br>
+<a href="#PBehaviorNet.php">PBehaviorNet.php</a><br>
+<a href="#PBindEmail.php">PBindEmail.php</a><br>
+<a href="#PBindMobile.php">PBindMobile.php</a><br>
+<a href="#PCharset.php">PCharset.php</a><br>
+<a href="#PClearBlackList.php">PClearBlackList.php</a><br>
+<a href="#PCommentJournal.php">PCommentJournal.php</a><br>
+<a href="#PCommentJournalPlace.php">PCommentJournalPlace.php</a><br>
+<a href="#PCondition.php">PCondition.php</a><br>
+<a href="#PConditionEnum.php">PConditionEnum.php</a><br>
+<a href="#PCreateJournal.php">PCreateJournal.php</a><br>
+<a href="#PCreateJournalPlace.php">PCreateJournalPlace.php</a><br>
+<a href="#PDataJudge.php">PDataJudge.php</a><br>
+<a href="#PDataTypeEnum.php">PDataTypeEnum.php</a><br>
+<a href="#PDatatypeManager.php">PDatatypeManager.php</a><br>
+<a href="#PDeleteBlackList.php">PDeleteBlackList.php</a><br>
+<a href="#PDeleteJournal.php">PDeleteJournal.php</a><br>
+<a href="#PDeleteJournalPlace.php">PDeleteJournalPlace.php</a><br>
+<a href="#PDeletePlace.php">PDeletePlace.php</a><br>
+<a href="#PDTFloat.php">PDTFloat.php</a><br>
+<a href="#PDTInteger.php">PDTInteger.php</a><br>
+<a href="#PDTMusic.php">PDTMusic.php</a><br>
+<a href="#PDTPicture.php">PDTPicture.php</a><br>
+<a href="#PDTPosition.php">PDTPosition.php</a><br>
+<a href="#PDTText.php">PDTText.php</a><br>
+<a href="#PDTTime.php">PDTTime.php</a><br>
+<a href="#PDTVideo.php">PDTVideo.php</a><br>
+<a href="#PEmail.php">PEmail.php</a><br>
+<a href="#PEnableIm.php">PEnableIm.php</a><br>
+<a href="#PFavouriteJournal.php">PFavouriteJournal.php</a><br>
+<a href="#PFavouriteJournalPlace.php">PFavouriteJournalPlace.php</a><br>
+<a href="#PFollowUser.php">PFollowUser.php</a><br>
+<a href="#PGeocoding.php">PGeocoding.php</a><br>
+<a href="#PGeographicManager.php">PGeographicManager.php</a><br>
+<a href="#PHttpRequest.php">PHttpRequest.php</a><br>
+<a href="#PIBehavior.php">PIBehavior.php</a><br>
+<a href="#PIMManager.php">PIMManager.php</a><br>
+<a href="#PJournalManager.php">PJournalManager.php</a><br>
+<a href="#PLoginEmail.php">PLoginEmail.php</a><br>
+<a href="#PLoginOthers.php">PLoginOthers.php</a><br>
+<a href="#PLoginTelephone.php">PLoginTelephone.php</a><br>
+<a href="#PPhoto.php">PPhoto.php</a><br>
+<a href="#PReceiveMsg.php">PReceiveMsg.php</a><br>
+<a href="#PRegisterConfirmEmail.php">PRegisterConfirmEmail.php</a><br>
+<a href="#PRegisterConfirmTelephone.php">PRegisterConfirmTelephone.php</a><br>
+<a href="#PRegisterEmail.php">PRegisterEmail.php</a><br>
+<a href="#PRegisterOthers.php">PRegisterOthers.php</a><br>
+<a href="#PRegisterTelephone.php">PRegisterTelephone.php</a><br>
+<a href="#PRpcGeographicInfo.php">PRpcGeographicInfo.php</a><br>
+<a href="#PRpcGeographicMethod.php">PRpcGeographicMethod.php</a><br>
+<a href="#PRpcImInfo.php">PRpcImInfo.php</a><br>
+<a href="#PRpcImMethod.php">PRpcImMethod.php</a><br>
+<a href="#PRpcJournalInfo.php">PRpcJournalInfo.php</a><br>
+<a href="#PRpcJournalMethod.php">PRpcJournalMethod.php</a><br>
+<a href="#PRpcLogin.php">PRpcLogin.php</a><br>
+<a href="#PRpcOnlineRecordInfo.php">PRpcOnlineRecordInfo.php</a><br>
+<a href="#PRpcRegister.php">PRpcRegister.php</a><br>
+<a href="#PRpcUserInfo.php">PRpcUserInfo.php</a><br>
+<a href="#PRpcUserMethod.php">PRpcUserMethod.php</a><br>
+<a href="#PSendMsg.php">PSendMsg.php</a><br>
+<a href="#PServer.php">PServer.php</a><br>
+<a href="#PSetAvatar.php">PSetAvatar.php</a><br>
+<a href="#PSetJournalPrivacy.php">PSetJournalPrivacy.php</a><br>
+<a href="#PSetNewPassword.php">PSetNewPassword.php</a><br>
+<a href="#PSetSaying.php">PSetSaying.php</a><br>
+<a href="#PSystemBlogManager.php">PSystemBlogManager.php</a><br>
+<a href="#PUserId.php">PUserId.php</a><br>
+<a href="#PUserManager.php">PUserManager.php</a><br>
+<a name="PAddBlackList.php"></a>
+<h1>PAddBlackList.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Im_PAddBlackList<br>
+<b>Warning on line 16</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\im\PAddBlackList.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PAddJournalPlaceInfo.php"></a>
+<h1>PAddJournalPlaceInfo.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Journal_PAddJournalPlaceInfo<br>
+<b>Warning on line 65</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\journal\PAddJournalPlaceInfo.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PAddPhotoToJournalInfo.php"></a>
+<h1>PAddPhotoToJournalInfo.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Journal_PAddPhotoToJournalInfo<br>
+<b>Warning on line 83</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\journal\PAddPhotoToJournalInfo.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PAddPlace.php"></a>
+<h1>PAddPlace.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Geographic_PAddPlace<br>
+<b>Warning on line 14</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\geographic\PAddPlace.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PAuthorization.php"></a>
+<h1>PAuthorization.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_CommonAction_PAuthorization<br>
+<b>Warning on line 74</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\CommonAction\PAuthorization.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PAvatar.php"></a>
+<h1>PAvatar.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_CommonAction_PAvatar<br>
+<b>Warning on line 228</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\CommonAction\PAvatar.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PBehaviorEnum.php"></a>
+<h1>PBehaviorEnum.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_PBehaviorEnum<br>
+<b>Warning on line 401</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\PBehaviorEnum.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PBehaviorLine.php"></a>
+<h1>PBehaviorLine.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_PBehaviorLine<br>
+<b>Warning on line 135</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\PBehaviorLine.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PBehaviorManager.php"></a>
+<h1>PBehaviorManager.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_PBehaviorManager<br>
+<b>Warning on line 22</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\PBehaviorManager.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PBehaviorNet.php"></a>
+<h1>PBehaviorNet.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class Models_Behavior_PBehaviorNet<br>
+<b>Warning on line 280</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\PBehaviorNet.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PBindEmail.php"></a>
+<h1>PBindEmail.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_User_PBindEmail<br>
+<b>Warning on line 15</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\user\PBindEmail.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PBindMobile.php"></a>
+<h1>PBindMobile.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_User_PBindMobile<br>
+<b>Warning on line 15</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\user\PBindMobile.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PCharset.php"></a>
+<h1>PCharset.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 23</b> - no @package tag was used in a DocBlock for class Models_CommonAction_PCharset<br>
+<b>Warning on line 68</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\CommonAction\PCharset.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PClearBlackList.php"></a>
+<h1>PClearBlackList.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Im_PClearBlackList<br>
+<b>Warning on line 16</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\im\PClearBlackList.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PCommentJournal.php"></a>
+<h1>PCommentJournal.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Journal_PCommentJournal<br>
+<b>Warning on line 16</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\journal\PCommentJournal.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PCommentJournalPlace.php"></a>
+<h1>PCommentJournalPlace.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Journal_PCommentJournalPlace<br>
+<b>Warning on line 16</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\journal\PCommentJournalPlace.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PCondition.php"></a>
+<h1>PCondition.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Condition_PCondition<br>
+<b>Warning on line 9</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\condition\PCondition.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PConditionEnum.php"></a>
+<h1>PConditionEnum.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Condition_PConditionEnum<br>
+<b>Warning on line 21</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\condition\PConditionEnum.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PCreateJournal.php"></a>
+<h1>PCreateJournal.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Journal_PCreateJournal<br>
+<b>Warning on line 62</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\journal\PCreateJournal.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PCreateJournalPlace.php"></a>
+<h1>PCreateJournalPlace.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Journal_PCreateJournalPlace<br>
+<b>Warning on line 80</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\journal\PCreateJournalPlace.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PDataJudge.php"></a>
+<h1>PDataJudge.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_CommonAction_PDataJudge<br>
+<b>Warning on line 70</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\CommonAction\PDataJudge.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PDataTypeEnum.php"></a>
+<h1>PDataTypeEnum.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 6</b> - Unknown tag "@created" used<br>
+<b>Warning on line 7</b> - no @package tag was used in a DocBlock for class Models_Datatype_PDataTypeEnum<br>
+<b>Warning on line 75</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\datatype\PDataTypeEnum.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PDatatypeManager.php"></a>
+<h1>PDatatypeManager.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 4</b> - no @package tag was used in a DocBlock for class Models_Datatype_PDatatypeManager<br>
+<b>Warning on line 38</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\datatype\PDatatypeManager.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PDeleteBlackList.php"></a>
+<h1>PDeleteBlackList.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Im_PDeleteBlackList<br>
+<b>Warning on line 16</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\im\PDeleteBlackList.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PDeleteJournal.php"></a>
+<h1>PDeleteJournal.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Journal_PDeleteJournal<br>
+<b>Warning on line 16</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\journal\PDeleteJournal.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PDeleteJournalPlace.php"></a>
+<h1>PDeleteJournalPlace.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Journal_PDeleteJournalPlace<br>
+<b>Warning on line 16</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\journal\PDeleteJournalPlace.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PDeletePlace.php"></a>
+<h1>PDeletePlace.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Geographic_PDeletePlace<br>
+<b>Warning on line 14</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\geographic\PDeletePlace.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PDTFloat.php"></a>
+<h1>PDTFloat.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 8</b> - Unknown tag "@created" used<br>
+<b>Warning on line 9</b> - no @package tag was used in a DocBlock for class Models_Datatype_PDTFloat<br>
+<b>Warning on line 83</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\datatype\PDTFloat.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PDTInteger.php"></a>
+<h1>PDTInteger.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 6</b> - Unknown tag "@created" used<br>
+<b>Warning on line 7</b> - no @package tag was used in a DocBlock for class Models_Datatype_PDTInteger<br>
+<b>Warning on line 81</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\datatype\PDTInteger.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PDTMusic.php"></a>
+<h1>PDTMusic.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 8</b> - Unknown tag "@created" used<br>
+<b>Warning on line 9</b> - no @package tag was used in a DocBlock for class Models_Datatype_PDTMusic<br>
+<b>Warning on line 64</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\datatype\PDTMusic.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PDTPicture.php"></a>
+<h1>PDTPicture.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 8</b> - Unknown tag "@created" used<br>
+<b>Warning on line 9</b> - no @package tag was used in a DocBlock for class Models_Datatype_PDTPicture<br>
+<b>Warning on line 86</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\datatype\PDTPicture.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PDTPosition.php"></a>
+<h1>PDTPosition.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 8</b> - Unknown tag "@created" used<br>
+<b>Warning on line 9</b> - no @package tag was used in a DocBlock for class Models_Datatype_PDTPosition<br>
+<b>Warning on line 150</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\datatype\PDTPosition.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PDTText.php"></a>
+<h1>PDTText.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 8</b> - Unknown tag "@created" used<br>
+<b>Warning on line 9</b> - no @package tag was used in a DocBlock for class Models_Datatype_PDTText<br>
+<b>Warning on line 86</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\datatype\PDTText.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PDTTime.php"></a>
+<h1>PDTTime.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 8</b> - Unknown tag "@created" used<br>
+<b>Warning on line 9</b> - no @package tag was used in a DocBlock for class Models_Datatype_PDTTime<br>
+<b>Warning on line 100</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\datatype\PDTTime.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PDTVideo.php"></a>
+<h1>PDTVideo.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 8</b> - Unknown tag "@created" used<br>
+<b>Warning on line 9</b> - no @package tag was used in a DocBlock for class Models_Datatype_PDTVideo<br>
+<b>Warning on line 64</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\datatype\PDTVideo.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PEmail.php"></a>
+<h1>PEmail.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_CommonAction_PEmail<br>
+<b>Warning on line 124</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\CommonAction\PEmail.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PEnableIm.php"></a>
+<h1>PEnableIm.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Im_PEnableIm<br>
+<b>Warning on line 16</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\im\PEnableIm.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PFavouriteJournal.php"></a>
+<h1>PFavouriteJournal.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Journal_PFavouriteJournal<br>
+<b>Warning on line 60</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\journal\PFavouriteJournal.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PFavouriteJournalPlace.php"></a>
+<h1>PFavouriteJournalPlace.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Journal_PFavouriteJournalPlace<br>
+<b>Warning on line 61</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\journal\PFavouriteJournalPlace.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PFollowUser.php"></a>
+<h1>PFollowUser.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_User_PFollowUser<br>
+<b>Warning on line 15</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\user\PFollowUser.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PGeocoding.php"></a>
+<h1>PGeocoding.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 23</b> - no @package tag was used in a DocBlock for class Models_CommonAction_PGeocoding<br>
+<b>Warning on line 495</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\CommonAction\PGeocoding.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PGeographicManager.php"></a>
+<h1>PGeographicManager.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Data_PGeographicManager<br>
+<b>Warning on line 41</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\data\PGeographicManager.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PHttpRequest.php"></a>
+<h1>PHttpRequest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_CommonAction_PHttpRequest<br>
+<b>Warning on line 82</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\CommonAction\PHttpRequest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PIBehavior.php"></a>
+<h1>PIBehavior.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_PIBehavior<br>
+<b>Warning on line 328</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\PIBehavior.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PIMManager.php"></a>
+<h1>PIMManager.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Data_PIMManager<br>
+<b>Warning on line 15</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\data\PIMManager.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PJournalManager.php"></a>
+<h1>PJournalManager.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Data_PJournalManager<br>
+<b>Warning on line 415</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\data\PJournalManager.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PLoginEmail.php"></a>
+<h1>PLoginEmail.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_User_PLoginEmail<br>
+<b>Warning on line 53</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\user\PLoginEmail.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PLoginOthers.php"></a>
+<h1>PLoginOthers.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_User_PLoginOthers<br>
+<b>Warning on line 15</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\user\PLoginOthers.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PLoginTelephone.php"></a>
+<h1>PLoginTelephone.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_User_PLoginTelephone<br>
+<b>Warning on line 52</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\user\PLoginTelephone.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PPhoto.php"></a>
+<h1>PPhoto.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_CommonAction_PPhoto<br>
+<b>Warning on line 588</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\CommonAction\PPhoto.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PReceiveMsg.php"></a>
+<h1>PReceiveMsg.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Im_PReceiveMsg<br>
+<b>Warning on line 14</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\im\PReceiveMsg.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PRegisterConfirmEmail.php"></a>
+<h1>PRegisterConfirmEmail.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_User_PRegisterConfirmEmail<br>
+<b>Warning on line 55</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\user\PRegisterConfirmEmail.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PRegisterConfirmTelephone.php"></a>
+<h1>PRegisterConfirmTelephone.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_User_PRegisterConfirmTelephone<br>
+<b>Warning on line 17</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\user\PRegisterConfirmTelephone.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PRegisterEmail.php"></a>
+<h1>PRegisterEmail.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class Models_Behavior_User_PRegisterEmail<br>
+<b>Warning on line 86</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\user\PRegisterEmail.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PRegisterOthers.php"></a>
+<h1>PRegisterOthers.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_User_PRegisterOthers<br>
+<b>Warning on line 14</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\user\PRegisterOthers.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PRegisterTelephone.php"></a>
+<h1>PRegisterTelephone.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_User_PRegisterTelephone<br>
+<b>Warning on line 69</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\user\PRegisterTelephone.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PRpcGeographicInfo.php"></a>
+<h1>PRpcGeographicInfo.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Xmlrpc_Geographic_PRpcGeographicInfo<br>
+<b>Warning on line 51</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\xmlrpc\geographic\PRpcGeographicInfo.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PRpcGeographicMethod.php"></a>
+<h1>PRpcGeographicMethod.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Xmlrpc_Geographic_PRpcGeographicMethod<br>
+<b>Warning on line 53</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\xmlrpc\geographic\PRpcGeographicMethod.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PRpcImInfo.php"></a>
+<h1>PRpcImInfo.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Xmlrpc_Im_PRpcImInfo<br>
+<b>Warning on line 18</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\xmlrpc\im\PRpcImInfo.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PRpcImMethod.php"></a>
+<h1>PRpcImMethod.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Xmlrpc_Im_PRpcImMethod<br>
+<b>Warning on line 138</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\xmlrpc\im\PRpcImMethod.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PRpcJournalInfo.php"></a>
+<h1>PRpcJournalInfo.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Xmlrpc_Journal_PRpcJournalInfo<br>
+<b>Warning on line 226</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\xmlrpc\journal\PRpcJournalInfo.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PRpcJournalMethod.php"></a>
+<h1>PRpcJournalMethod.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Xmlrpc_Journal_PRpcJournalMethod<br>
+<b>Warning on line 278</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\xmlrpc\journal\PRpcJournalMethod.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PRpcLogin.php"></a>
+<h1>PRpcLogin.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Xmlrpc_User_PRpcLogin<br>
+<b>Warning on line 46</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\xmlrpc\user\PRpcLogin.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PRpcOnlineRecordInfo.php"></a>
+<h1>PRpcOnlineRecordInfo.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Xmlrpc_System_PRpcOnlineRecordInfo<br>
+<b>Warning on line 16</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\xmlrpc\system\PRpcOnlineRecordInfo.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PRpcRegister.php"></a>
+<h1>PRpcRegister.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Xmlrpc_User_PRpcRegister<br>
+<b>Warning on line 156</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\xmlrpc\user\PRpcRegister.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PRpcUserInfo.php"></a>
+<h1>PRpcUserInfo.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Xmlrpc_User_PRpcUserInfo<br>
+<b>Warning on line 90</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\xmlrpc\user\PRpcUserInfo.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PRpcUserMethod.php"></a>
+<h1>PRpcUserMethod.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Xmlrpc_User_PRpcUserMethod<br>
+<b>Warning on line 143</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\xmlrpc\user\PRpcUserMethod.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PSendMsg.php"></a>
+<h1>PSendMsg.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Im_PSendMsg<br>
+<b>Warning on line 16</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\im\PSendMsg.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PServer.php"></a>
+<h1>PServer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 8</b> - no @package tag was used in a DocBlock for class Models_Xmlrpc_PServer<br>
+<b>Warning on line 151</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\xmlrpc\PServer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PSetAvatar.php"></a>
+<h1>PSetAvatar.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_User_PSetAvatar<br>
+<b>Warning on line 51</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\user\PSetAvatar.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PSetJournalPrivacy.php"></a>
+<h1>PSetJournalPrivacy.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_Journal_PSetJounalPrivacy<br>
+<b>Warning on line 16</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\journal\PSetJournalPrivacy.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PSetNewPassword.php"></a>
+<h1>PSetNewPassword.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_User_PSetNewPassword<br>
+<b>Warning on line 15</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\user\PSetNewPassword.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PSetSaying.php"></a>
+<h1>PSetSaying.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Behavior_User_PSetSaying<br>
+<b>Warning on line 15</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\behavior\user\PSetSaying.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PSystemBlogManager.php"></a>
+<h1>PSystemBlogManager.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Data_PSystemBlogManager<br>
+<b>Warning on line 14</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\data\PSystemBlogManager.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PUserId.php"></a>
+<h1>PUserId.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Condition_PUserId<br>
+<b>Warning on line 16</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\condition\PUserId.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PUserManager.php"></a>
+<h1>PUserManager.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2</b> - no @package tag was used in a DocBlock for class Models_Data_PUserManager<br>
+<b>Warning on line 157</b> - File "D:\working\group\lbsReborn\localhost_LBS\code\server\Journal\application\models\data\PUserManager.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+	<p class="notes" id="credit">
+		Documentation generated on Thu, 19 May 2011 03:16:08 +0000 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.1</a>
+	</p>
+	</body>
+</html>

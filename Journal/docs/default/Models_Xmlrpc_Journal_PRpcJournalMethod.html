@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Models_Xmlrpc_Journal_PRpcJournalMethod</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Models_Xmlrpc_Journal_PRpcJournalMethod</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_journal---PRpcJournalMethod.php.html">/journal/PRpcJournalMethod.php</a> (line <span class="field">2</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+												<div class="method-definition">
+					static 						<span class="method-result">struct</span>
+										<a href="#addJournalPlaceInfo" title="details" class="method-name">addJournalPlaceInfo</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalPlaceId</span>, <span class="var-type">strin</span>&nbsp;<span class="var-name">$infoText</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">struct</span>
+										<a href="#addPhotoToJournalInfo" title="details" class="method-name">addPhotoToJournalInfo</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalPlaceId</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$photoTitle</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$photoContent</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">int</span>
+										<a href="#commentJournal" title="details" class="method-name">commentJournal</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalId</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$commentText</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">int</span>
+										<a href="#commentJournalPlace" title="details" class="method-name">commentJournalPlace</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalPlaceId</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$commentText</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">struct</span>
+										<a href="#createJournal" title="details" class="method-name">createJournal</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$title</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$startingCity</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$isPrivate</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">struct</span>
+										<a href="#createJournalPlace" title="details" class="method-name">createJournalPlace</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalId</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$place</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$longitude</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$latitude</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">int</span>
+										<a href="#deleteJournal" title="details" class="method-name">deleteJournal</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalId</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">int</span>
+										<a href="#deleteJournalPlace" title="details" class="method-name">deleteJournalPlace</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalPlaceId</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">int</span>
+										<a href="#favouriteJournal" title="details" class="method-name">favouriteJournal</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalId</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">int</span>
+										<a href="#favouriteJournalPlace" title="details" class="method-name">favouriteJournalPlace</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalPlaceId</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">int</span>
+										<a href="#setJournalPrivacy" title="details" class="method-name">setJournalPrivacy</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalId</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$isPrivate</span>)
+									</div>
+								
+																																																																																												</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodaddJournalPlaceInfo" id="addJournalPlaceInfo"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method addJournalPlaceInfo</span> (line <span class="line-number">11</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">添加游记中的景点内容</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array('result'=&gt;int , 'infoId'=&gt;infoId)</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">struct</span>
+		<span class="method-name">
+			addJournalPlaceInfo
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalPlaceId</span>, <span class="var-type">strin</span>&nbsp;<span class="var-name">$infoText</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$journalPlaceId</span>			</li>
+					<li>
+				<span class="var-type">strin</span>
+				<span class="var-name">$infoText</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodaddPhotoToJournalInfo" id="addPhotoToJournalInfo"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method addPhotoToJournalInfo</span> (line <span class="line-number">23</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">添加照片到游记的景点内容中</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array('result'=&gt;int , 'photoId'=&gt;photoId)</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">struct</span>
+		<span class="method-name">
+			addPhotoToJournalInfo
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalPlaceId</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$photoTitle</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$photoContent</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$journalPlaceId</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$photoTitle</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$photoContent</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcommentJournal" id="commentJournal"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method commentJournal</span> (line <span class="line-number">34</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">评论游记</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">int</span>
+		<span class="method-name">
+			commentJournal
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalId</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$commentText</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$journalId</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$commentText</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcommentJournalPlace" id="commentJournalPlace"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method commentJournalPlace</span> (line <span class="line-number">45</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">评论游记景点</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">int</span>
+		<span class="method-name">
+			commentJournalPlace
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalPlaceId</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$commentText</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$journalPlaceId</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$commentText</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcreateJournal" id="createJournal"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method createJournal</span> (line <span class="line-number">57</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">创建新的游记</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array('result'=&gt;int , 'journalId'=&gt;journalId)</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">struct</span>
+		<span class="method-name">
+			createJournal
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$title</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$startingCity</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$isPrivate</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$title</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$startingCity</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$isPrivate</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcreateJournalPlace" id="createJournalPlace"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method createJournalPlace</span> (line <span class="line-number">70</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">创建新的游记景点</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array('result'=&gt;int , 'journalPlaceId'=&gt;journalPlaceId)</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">struct</span>
+		<span class="method-name">
+			createJournalPlace
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalId</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$place</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$longitude</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$latitude</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$journalId</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$place</span><span class="var-description">: 景点名称或者景点id</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$longitude</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$latitude</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddeleteJournal" id="deleteJournal"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method deleteJournal</span> (line <span class="line-number">80</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">删除游记</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">int</span>
+		<span class="method-name">
+			deleteJournal
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalId</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$journalId</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddeleteJournalPlace" id="deleteJournalPlace"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method deleteJournalPlace</span> (line <span class="line-number">90</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">删除游记景点</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">int</span>
+		<span class="method-name">
+			deleteJournalPlace
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalPlaceId</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$journalPlaceId</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfavouriteJournal" id="favouriteJournal"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method favouriteJournal</span> (line <span class="line-number">100</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">收藏游记</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">int</span>
+		<span class="method-name">
+			favouriteJournal
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalId</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$journalId</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfavouriteJournalPlace" id="favouriteJournalPlace"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method favouriteJournalPlace</span> (line <span class="line-number">110</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">收藏游记景点</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">int</span>
+		<span class="method-name">
+			favouriteJournalPlace
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalPlaceId</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$journalPlaceId</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetJournalPrivacy" id="setJournalPrivacy"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method setJournalPrivacy</span> (line <span class="line-number">122</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">设置游记的开放属性（公开游记、私人游记）</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">int</span>
+		<span class="method-name">
+			setJournalPrivacy
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalId</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$isPrivate</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$journalId</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$isPrivate</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Wed, 20 Apr 2011 09:20:29 +0000 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.1</a>
+	</p>
+	</div></body>
+</html>

@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Models_Xmlrpc_Journal_PRpcJournalInfo</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Models_Xmlrpc_Journal_PRpcJournalInfo</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+		<p class="notes">
+			Located in <a class="field" href="_journal---PRpcJournalInfo.php.html">/journal/PRpcJournalInfo.php</a> (line <span class="field">2</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+												<div class="method-definition">
+					static 						<span class="method-result">struct</span>
+										<a href="#getFavouriteJournal" title="details" class="method-name">getFavouriteJournal</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$requestUsrId</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">struct</span>
+										<a href="#getFavouriteJournalPlace" title="details" class="method-name">getFavouriteJournalPlace</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$requestUsrId</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">struct</span>
+										<a href="#getFriendMovement" title="details" class="method-name">getFriendMovement</a>
+											(<span class="var-type">boolean</span>&nbsp;<span class="var-name">$bObliged</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">struct</span>
+										<a href="#getJournal" title="details" class="method-name">getJournal</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$requestUserId</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">struct</span>
+										<a href="#getJournalByCity" title="details" class="method-name">getJournalByCity</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$city</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">struct</span>
+										<a href="#getJournalByPlace" title="details" class="method-name">getJournalByPlace</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$place</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">struct</span>
+										<a href="#getJournalInfo" title="details" class="method-name">getJournalInfo</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalId</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">struct</span>
+										<a href="#getJournalPlaceInfo" title="details" class="method-name">getJournalPlaceInfo</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalPlaceId</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">struct</span>
+										<a href="#getJournalPlacePhoto" title="details" class="method-name">getJournalPlacePhoto</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalPlaceId</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">struct</span>
+										<a href="#getJournalPlaces" title="details" class="method-name">getJournalPlaces</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalId</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">struct</span>
+										<a href="#getSpecialJournal" title="details" class="method-name">getSpecialJournal</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+									</div>
+								
+																																																																																												</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodgetFavouriteJournal" id="getFavouriteJournal"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getFavouriteJournal</span> (line <span class="line-number">71</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">获取用户收藏的游记列表 （游记标题、用户名、游记创建时间、游记图片数量、游记评分、游记点评人数）</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array(journalId=&gt;array(title,username,time,photoCount,mark,markCount) , journalId=&gt;array(title,username,time,photoCount,mark,markCount), ...)</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">struct</span>
+		<span class="method-name">
+			getFavouriteJournal
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$requestUsrId</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$requestUsrId</span><span class="var-description">: 收藏游记列表所属的用户id</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$beginIndex</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$rowCount</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetFavouriteJournalPlace" id="getFavouriteJournalPlace"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getFavouriteJournalPlace</span> (line <span class="line-number">83</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">获取用户收藏的游记景点的列表（游记景点的id、景点的id、景点名、用户名、评分、点评人数）</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array(journalPlaceId=&gt;array(time,placeId,placeName,username,mark,markCount), ...)</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">struct</span>
+		<span class="method-name">
+			getFavouriteJournalPlace
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$requestUsrId</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$requestUsrId</span><span class="var-description">: 收藏游记景点列表所属的用户id</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$beginIndex</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$rowCount</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetFriendMovement" id="getFriendMovement"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getFriendMovement</span> (line <span class="line-number">96</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">获取驴友的动态（包括最新发布的游记、最新收藏的游记和游记景点）（用户id、动态类型、用户名、游记id、游记标题、动态时间、关键字）</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array(userId=&gt;array(movementType,username,journalId,journalTitle,time,keyword))</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">struct</span>
+		<span class="method-name">
+			getFriendMovement
+		</span>
+					(<span class="var-type">boolean</span>&nbsp;<span class="var-name">$bObliged</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$bObliged</span><span class="var-description">: 如果为true，那么当用户的所有驴友都没有动态的时候，返回其他用户的热门动态；如果为false，那么当用户的所有驴友都没有动态的时候，返回空</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$beginIndex</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$rowCount</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetJournal" id="getJournal"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getJournal</span> (line <span class="line-number">59</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">获取游记列表（游记标题、游记更新时间、游记图片数量、游记评分、游记点评人数）</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array(journalId=&gt;array(title,updateTime,photoCount,mark,markCount) , journalId=&gt;array(title,time,photoCount,mark,markCount), ...)</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">struct</span>
+		<span class="method-name">
+			getJournal
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$requestUserId</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$requestUserId</span><span class="var-description">: 如果为空，那么返回当前登录用户的游记列表</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$beginIndex</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$rowCount</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetJournalByCity" id="getJournalByCity"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getJournalByCity</span> (line <span class="line-number">110</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">以城市为目的地搜索游记（游记标题、游记更新时间、用户名、评分、点评人数）</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array(title , updateTime , username , mark , markCount)</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">struct</span>
+		<span class="method-name">
+			getJournalByCity
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$city</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$city</span><span class="var-description">: 景点id 或者 景点名称</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$beginIndex</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$rowCount</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetJournalByPlace" id="getJournalByPlace"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getJournalByPlace</span> (line <span class="line-number">123</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">通过景点搜索游记景点内容（驴友id、用户名、更新时间、评分、点评人数）</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array(journalPlaceId=&gt;array(userId, username, updateTime, mark, markCount))</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">struct</span>
+		<span class="method-name">
+			getJournalByPlace
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$place</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$place</span><span class="var-description">: 景点id 或者 景点名称</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$beginIndex</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$rowCount</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetJournalInfo" id="getJournalInfo"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getJournalInfo</span> (line <span class="line-number">10</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">获取游记的信息(标题、创建时间、驴友名、评分、点评人数、是否私有)</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array(title , time , updateTime , username , mark , markCount , boolean)</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">struct</span>
+		<span class="method-name">
+			getJournalInfo
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalId</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$journalId</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetJournalPlaceInfo" id="getJournalPlaceInfo"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getJournalPlaceInfo</span> (line <span class="line-number">35</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">获取游记景点的内容（内容id、内容文字、内容创建时间、图片数量、图片数组）</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array( intoId =&gt; array( content , time , photoCount, array(photoTitle=&gt;smallPhoto , photoTitle=&gt;smallPhoto,...)), ... )</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">struct</span>
+		<span class="method-name">
+			getJournalPlaceInfo
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalPlaceId</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$journalPlaceId</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$beginIndex</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$rowCount</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetJournalPlacePhoto" id="getJournalPlacePhoto"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getJournalPlacePhoto</span> (line <span class="line-number">47</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">获取游记景点内容的图片</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array(photoTitle=&gt;smallPhoto , photoTitle=&gt;smallPhoto , ...)</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">struct</span>
+		<span class="method-name">
+			getJournalPlacePhoto
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalPlaceId</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$journalPlaceId</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$beginIndex</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$rowCount</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetJournalPlaces" id="getJournalPlaces"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getJournalPlaces</span> (line <span class="line-number">22</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">获取游记的景点列表（游记景点id、景点名、评分、点评人数）</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array(journalPlaceId=&gt;array(placeName,mark,markCount) , journalPlaceId=&gt;placeName,...)</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">struct</span>
+		<span class="method-name">
+			getJournalPlaces
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$journalId</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$journalId</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$beginIndex</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$rowCount</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetSpecialJournal" id="getSpecialJournal"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method getSpecialJournal</span> (line <span class="line-number">135</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">通过用户的历史，返回特色游记景点内容（内容id、内容文字、内容创建时间、图片数量、图片数组）</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array( intoId =&gt; array( content , time ,photoCount, array(photoTitle=&gt;smallPhoto , photoTitle=&gt;smallPhoto,...)), ... )</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">struct</span>
+		<span class="method-name">
+			getSpecialJournal
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$beginIndex</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$rowCount</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$beginIndex</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$rowCount</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Wed, 20 Apr 2011 09:20:29 +0000 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.1</a>
+	</p>
+	</div></body>
+</html>

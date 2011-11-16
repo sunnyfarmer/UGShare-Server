@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueTable>
+	<value id="pv00000001" description="第一个propertyValue" formula="select * from tb where property='';" datatypeId="2">
+		<condition conditionId="1" conditionDescription="条件：你天吧"></condition></value>
+	<value id="pv00000001" description="第一个propertyValue" formula="select * from tb where property='';" datatypeId="2">
+		<condition conditionId="1" conditionDescription="条件：你天吧"></condition></value>
+</valueTable>
+		
